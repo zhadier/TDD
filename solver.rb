@@ -10,4 +10,12 @@ class Solver
 
     str.reverse
   end
+
+  def fizzbuzz(number)
+    if number % 15 == 0 then "fizzbuzz"
+    elsif number % 3 == 0 then  "fizz"
+    elsif number % 5 == 0 then "buzz"
+    else number.to_s
+    end
+  end
 end
