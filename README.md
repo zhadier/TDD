@@ -1,62 +1,56 @@
-<!-- @format -->
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TDD
+# School library
 
-> Imagine that you are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. "OOP School Library" is a school library app and encapsulates the essence of OOP and Ruby.
+> In this project you can ran the solver class and use its method to finde a factorial of a number, reverse a string or play fizzbuzz! try it without fear, since its made with TDD, everything is properly tested!
 
 ## Built With
 
 - Ruby
+- Git, Github, Rubocop
+- Rubocop
 
 ## Getting Started
 
-### To launch the project locally:
 
-#### Step 1:
 
-- Clone this repo locally using git in the command line and the following command
+To get a local copy up and running follow these simple example steps.
 
- ```bash
- > git clone git@github.com:zhadier/OOP-School-Library.git
- ```
+### Prerequisites
 
-- Alternatively, you can just download the complete zip file and extract the folder in your directory
+run "git clone https://github.com/zhadier/TDD.git"
+run "cd /TDD
+run "bundle install" to install dependancies
 
-#### Step 2:
+### Run the tests
 
-In the project directory, you can run:
+Run 'rspec spec specs/solver_spec.rb' to run the tests
 
-```bash
-> ruby list.rb
-```
 
-or alternatively you can copy and paste the commands in
+👤 **Lisandro Seia**
 
-```bash
-> irb 
-```
+ **GitHub**  | [@lisandroseia](https://github.com/lisandroseia)
+ **LinkdIn** | [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
-## Authors
+ 👤 **Leonardo Albornoz** 
+ - GitHub: [@Leboroz](https://github.com/leboroz) 
+ - Twitter: [@Leboroz](https://twitter.com/leboroz) 
+ - LinkedIn: [Leonardo Albornoz](https://linkedin.com/in/leboroz) 
 
-👤 **Zeeshan Haider**
-
-- GitHub: [@zhadier](https://github.com/zhadier)
-- LinkedIn: [Zeeshan Haider](https://www.linkedin.com/in/zhadier39/)
-
+ 👤 **Zeeshan Haider**
+ 
+ - GitHub: [@zhadier](https://github.com/zhadier) 
+ - LinkedIn: [Zeeshan Haider](https://www.linkedin.com/in/zhadier39/) 
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome and highly encouraged!
-We feel that your input is what helps us grow so you're always Welcome :)
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-I would love to hear your thoughts and ideas 🖤
 
 ## 📝 License
 
