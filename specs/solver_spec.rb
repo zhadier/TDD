@@ -19,6 +19,10 @@ describe Solver do
     it 'takes one arguement and returns its factorial' do
       expect(@solver.factorial(3)).to eql(6)
     end
-    
+
+    it 'returns 1 if argument is 0' do
+       expect(@solver.factorial(0)).to eql(1)
+    end
+
   end
 end
