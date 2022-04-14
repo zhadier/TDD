@@ -44,40 +44,40 @@ describe Solver do
     end
   end
 
-  context "#fizzbuzz" do
-    it "should return fizz" do
+  context '#fizzbuzz' do
+    it 'should return fizz' do
       test_case = 9
-      expected = "fizz"
+      expected = 'fizz'
 
       test_case = @solver.fizzbuzz(test_case)
-      
+
       expect(test_case).to eql(expected)
     end
 
-    it "should return buzz" do
+    it 'should return buzz' do
       test_case = 10
-      expected = "buzz"
+      expected = 'buzz'
 
       test_case = @solver.fizzbuzz(test_case)
-      
+
       expect(test_case).to eql(expected)
     end
 
-    it "should return buzz" do
+    it 'should return buzz' do
       test_case = 30
-      expected = "fizzbuzz"
+      expected = 'fizzbuzz'
 
       test_case = @solver.fizzbuzz(test_case)
-      
+
       expect(test_case).to eql(expected)
     end
 
-    it "should return buzz" do
+    it 'should return buzz' do
       test_case = 4
-      expected = "4"
+      expected = '4'
 
       test_case = @solver.fizzbuzz(test_case)
-      
+
       expect(test_case).to eql(expected)
     end
   end
