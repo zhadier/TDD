@@ -24,5 +24,9 @@ describe Solver do
        expect(@solver.factorial(0)).to eql(1)
     end
 
+    it 'raises exception if number is negative' do
+      expect(@solver.factorial(-1)).to raise_error("Error, can't find factorial of -ve number")
+    end
+
   end
 end
