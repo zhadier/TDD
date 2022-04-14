@@ -17,7 +17,8 @@ describe Solver do
 
   context '#factorial' do
     it 'takes one arguement and returns its factorial' do
-      expect (@solver.factorial(3)).to eql(6)
+      expect(@solver.factorial(3)).to eql(6)
     end
+    
   end
 end
