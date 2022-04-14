@@ -25,7 +25,11 @@ describe Solver do
     end
 
     it 'raises exception if number is negative' do
-      expect{@solver.factorial(-1)}.to raise_error("Error, can't find factorial of -ve number")
+      expect{@solver.factorial(-1)}.to raise_error("Error, arguement for factorial needs to be a +ve Int type")
+    end
+
+    it 'raises exception if number is not an Int' do
+        expect{@solver.factorial('Zeeshan')}.to raise_error("Error, arguement for factorial needs to be a +ve Int type")
     end
 
   end
