@@ -34,12 +34,51 @@ describe Solver do
       end.to raise_error('Error, arguement for factorial needs to be a +ve Int type')
     end
   end
+
   context '#reverser' do
     it 'hello should return olleh' do
       expect(@solver.reverser('hello')).to eql('olleh')
     end
     it 'Should raise if parameter is not a string' do
       expect { @solver.reverser(-1) }.to raise_error('Expect argument for reverser to be a non empty string')
+    end
+  end
+
+  context "#fizzbuzz" do
+    it "should return fizz" do
+      test_case = 9
+      expected = "fizz"
+
+      test_case = @solver.fizzbuzz(test_case)
+      
+      expect(test_case).to eql(expected)
+    end
+
+    it "should return buzz" do
+      test_case = 10
+      expected = "buzz"
+
+      test_case = @solver.fizzbuzz(test_case)
+      
+      expect(test_case).to eql(expected)
+    end
+
+    it "should return buzz" do
+      test_case = 30
+      expected = "fizzbuzz"
+
+      test_case = @solver.fizzbuzz(test_case)
+      
+      expect(test_case).to eql(expected)
+    end
+
+    it "should return buzz" do
+      test_case = 4
+      expected = "4"
+
+      test_case = @solver.fizzbuzz(test_case)
+      
+      expect(test_case).to eql(expected)
     end
   end
 end
